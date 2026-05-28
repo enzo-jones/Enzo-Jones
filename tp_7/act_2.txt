@@ -1,0 +1,23 @@
+Ejercicio 2 - Leer codigo y explicarlo
+Este ejercicio no es para programar. 
+Lean el codigo y escriban una explicación de que hace.
+
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+
+el codigo convierte la cadena "lineas" a una lista luego separa los datos
+de la lista. En la tercera y cuarta linea de codigo quita los espacios
+de las filas 0, 1 y 2, y convierte en mayuscula la primera letra de las 
+de cada palabra. Luego verifica si hay un numero en la lista e inprime el nombre,
+materia y nota. En caso de no haber un numero indicara que la nota no es valida 

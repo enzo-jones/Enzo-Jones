@@ -1,0 +1,16 @@
+1_¿Porque es importante validar los datos que ingresa un usuario?
+Es importante validar datos porque nos permite revisar el conteniido del archivo
+antes de usarlo ya que si lo datos son erroneos el programa puede fallar, esto nos permite
+construir un programa mas seguro y confiable.
+
+2_¿Que hace strip y en que se diferencia de split?
+La funcion strip nos permite eliminar caracteres vacios o invisibles en una cadena de texto en el principio y en el final
+de la cadena, esta funcion no puede eliminar caracteres en el medio de la cadena.
+Mientras que la funcion split convierte una cadenade texto en una lista.
+
+3_¿Para que puede servir count cuando una linea tiene datos separados por comas o por punto y coma?
+Count nos permite contar los caracteres de una cadena de texto 
+
+4_¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+el problema que puede generar es que al comparar un dato con otro dato que no tiene espacios indicar False
+aunque los datos sean visualmente el mismo dato
